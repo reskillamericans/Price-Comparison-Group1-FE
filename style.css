@@ -1,1 +1,336 @@
-/* Write the Landing page styling here */
+:root{
+    --navy-blue: #02239A;
+    --yellow: #FFE66D;
+    --black:  #000000;  
+    --white: #FFFFFF;   
+    --lightblue: #00ace6;
+    --whitefog: #E5E5E5;
+    --med-blue:rgb(81, 106, 197, 50); 
+    }
+
+    body{
+        margin: 0;
+        background-color: var(--whitefog);
+         font-family: "DM Sans";
+
+    }
+
+    .container{
+        min-height: 1064px;
+        position:relative;
+        display: grid;
+        height: 100%;
+    
+    }
+
+    .flex-container{
+        display: flex;
+        justify-content: space-between;
+        font-family: "DM Sans";
+
+
+    }
+
+    .container2{
+        display: grid;
+        font-family: "DM Sans";
+    
+        
+    }
+    
+
+ 
+    nav{
+        display: flex;
+        align-items: center;     
+        width: 100%; 
+        height: 85px;
+        color: var(--white);
+        background-color:  var(--navy-blue);
+        justify-content: space-between;
+        padding: 2em;
+        
+    }
+
+    .navigation a {
+        color: var(--white);
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 5em;
+        text-decoration: none;
+        margin-right: 3rem;
+
+    }
+
+.navigation{
+    display: flex;
+    list-style: none;
+}
+
+.box-right{
+    padding: 4.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20em;
+   
+}
+
+#main-photo {
+    float: left;
+    width: 55vw;
+    height: 100%;
+    background-image: url("./images/main-photo.svg");
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    min-height: 1064px ;
+    padding: 0  .5rem;
+    padding-left: 8em ;
+}
+
+
+.logo{
+   
+    align-self: center;
+     margin-left: 27rem;
+    padding: 1em; 
+    
+
+}
+
+.logo2 img{
+    padding: 1em;
+    margin-right: 5em;
+
+    
+}
+
+
+
+h1{
+    font-size:  2.1rem;
+    line-height: 3.0rem;
+}
+
+.main-text p{
+  
+    font-size: 1.1rem;
+    margin-left: 1.3em;
+    line-height: 1.6rem;
+    font-weight: 600;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    font-family: "DM Sans";
+   
+}
+
+.button1{
+    width: 20vw ;
+    margin-bottom: 2rem;
+    background-color: var(--yellow);
+    border: none;
+    margin-left: .5rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding: .5em;
+    align-content: center;
+}
+
+button a{
+
+    text-decoration: none;
+    color: var(--black);
+}
+
+.button2{
+    width: 14em ;
+    height: 3em; 
+    background-color: var(--yellow);
+    padding: 1em;
+    border: none;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    align-content: center;  
+    text-decoration: none;
+}
+
+.buttons :hover {
+    background-color: var(--white);
+    border: 2px solid var(--yellow);
+}
+
+
+li :hover {
+    border: 1px solid var(--yellow);
+
+}
+
+img #account-icon :hover{
+    border: 1px solid var(--yellow); 
+}
+
+
+@media  screen and (max-width: 600px) {
+
+
+
+    .container{
+        width: 100%;
+        min-height: 720px;
+       
+        overflow-x: hidden;
+    
+    }
+
+
+    .logo{
+        margin-left: 1.5rem;
+        font-size: 4.0rem;
+        padding-top: .8em;
+      
+        
+    }
+
+    .logo2{
+    margin-left: 1.5rem;
+    font-size: 2.0rem;
+    }
+
+    #main-photo{
+        float: none;
+        width: 100vw;
+        background-size: 97vw;
+        height: 40%;
+        padding-right: 3em;
+        min-height: 420px;
+        
+    }
+
+    .box-left #main-photo{
+        display: block;
+        height: 40%;
+       
+    }
+
+
+  
+    nav{
+        height: 15rem;
+      flex-direction: column;
+      align-items: flex-start;  
+      padding: 0em;
+      justify-content:flex-start;
+      margin-left: 0;
+      
+    }
+
+    i  {
+       
+        margin-right: 2em;
+        font-size: 1.0rem;
+
+    }
+
+    .navigation a {
+        font-size: .6em;
+        margin-left: 0;
+        display: block;
+        margin-bottom: 3em;
+        
+    }
+
+
+    .box-right{
+        padding: .2em;
+        display: flex;
+        justify-content: start;
+        align-items:flex-start ; 
+        flex-direction: column;
+        margin-top: .2em;
+        padding-bottom: 1.3em;
+        
+     
+    }
+
+
+
+
+    .container2 {
+        display: flex;
+    }
+
+   
+    
+    h1 {
+        font-size: 1.85rem;
+       margin-bottom: 2em;
+        line-height: 2.0rem;
+        margin-left: 0.5em;   
+        margin-right: 2em;
+    }
+
+    .main-text p{
+        margin-left: 0.9em;   
+        font-size: 1.0rem; 
+        margin-right: 2em;
+    }
+
+
+    .buttons{
+        margin-top: 1.5rem; 
+        justify-content: center; 
+         
+    }
+
+    
+
+
+    .button1{
+        width: 13em ;
+        margin-bottom: 1.5rem;
+        margin-left: 4rem;
+        font-size: 1.2rem;
+        padding: .8em;
+        align-content: center;
+    }
+
+
+   
+
+    .button2{
+     
+        height: 2.7em; 
+        width: 12em ;
+        margin-left: 6rem;
+        font-size: 1.0rem;
+        font-weight: 600;
+        align-content: center; 
+    }
+
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
