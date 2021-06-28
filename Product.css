@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    width: 1600px;
+    height: auto;
+    background-color: #E5E5E5;
+    color: #000000;
+    
+}
+ul{
+    list-style: none;
+}
+button{
+    width: 200px;
+    height: 40px;
+    display: inline;
+}
+body{
+    margin: 0 auto;
+    padding: 0px;
+    width: 100%;
+    min-width: 1200px;
+    max-width: 1600px;
+    height: auto;
+    display: flex;
+    
+}
+header{
+    max-width: 1600px;
+    min-width: 1200px;
+    width: 100%;
+    max-height: 85px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    background-color: blue;    
+}
+nav{
+    background-color: blue;
+    
+}
+nav a{
+    background-color: blue;
+    text-decoration: none;
+    
+    
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+section img{
+    width: 550px;
+    height: 350px;
+}
+footer{
+    display: flex;
+}
+
