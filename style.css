@@ -16,10 +16,11 @@
     }
 
     .container{
-        min-height: 1064px;
+        min-height: 704px;
         position:relative;
         display: grid;
         height: 100%;
+        overflow-y: hidden;
     
     }
 
@@ -44,11 +45,11 @@
         display: flex;
         align-items: center;     
         width: 100%; 
-        height: 85px;
+        height: 70px;
         color: var(--white);
         background-color:  var(--navy-blue);
         justify-content: space-between;
-        padding: 2em;
+        padding: .4em;
         
     }
 
@@ -68,26 +69,28 @@
 }
 
 .box-right{
-    padding: 4.2em;
+    padding: 2.2em;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 20em;
+    margin-top: 10em;
+    margin-right: 10px;
    
 }
 
 #main-photo {
     float: left;
-    width: 55vw;
-    height: 100%;
+    width: 50vw;
+    height: 80vh;
     background-image: url("./images/main-photo.svg");
-    background-size: cover;
-    background-position: 0 0;
+    background-size: 930px 700px;
+  
+    
     background-repeat: no-repeat;
-    min-height: 1064px ;
+    min-height: 600px ;
     padding: 0  .5rem;
-    padding-left: 8em ;
+    padding-left: 7em ;
 }
 
 
@@ -101,7 +104,7 @@
 }
 
 .logo2 img{
-    padding: 1em;
+    padding: .5em;
     margin-right: 5em;
 
     
@@ -110,14 +113,14 @@
 
 
 h1{
-    font-size:  2.1rem;
+    font-size:  1.5rem;
     line-height: 3.0rem;
 }
 
 .main-text p{
   
-    font-size: 1.1rem;
-    margin-left: 1.3em;
+    font-size: 1.3rem;
+    margin-left: .6em;
     line-height: 1.6rem;
     font-weight: 600;
 }
@@ -135,7 +138,7 @@ h1{
     margin-bottom: 2rem;
     background-color: var(--yellow);
     border: none;
-    margin-left: .5rem;
+    margin-left: .1rem;
     font-weight: 600;
     font-size: 1.3rem;
     padding: .5em;
@@ -152,10 +155,10 @@ button a{
     width: 14em ;
     height: 3em; 
     background-color: var(--yellow);
-    padding: 1em;
+    padding: .3em;
     border: none;
     margin-left: 2rem;
-    font-size: 1.1rem;
+    font-size: .9rem;
     font-weight: 600;
     align-content: center;  
     text-decoration: none;
@@ -222,7 +225,7 @@ img #account-icon :hover{
 
   
     nav{
-        height: 15rem;
+        height: 13rem;
       flex-direction: column;
       align-items: flex-start;  
       padding: 0em;
@@ -233,16 +236,16 @@ img #account-icon :hover{
 
     i  {
        
-        margin-right: 2em;
-        font-size: 1.0rem;
+        margin-right: 1.3em;
+        font-size: 8px;
 
     }
 
     .navigation a {
-        font-size: .6em;
+        font-size: 7px;
         margin-left: 0;
         display: block;
-        margin-bottom: 3em;
+        margin-bottom: 8em;
         
     }
 
