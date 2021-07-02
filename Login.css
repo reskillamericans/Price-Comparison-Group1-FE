@@ -169,35 +169,4 @@ footer .icons{
     padding:1em;
   }
 
-  @media only screen and (max-width: 1200px) {
-
-    
-    .header h1{
-      margin-left: 35%;
-      font-size: 28px;
-      padding-top: 5%;
-    }
-
-    .header .navlinks{
-      font-size: 15px;
-      margin-left: 6%;
-    }
-
-    .loginbox{
-      margin-left: 15%;
-      margin-top: -15%;
-    padding: 1em;
-    }
-
-    .email h1{
-      font-size: 15px;
-    }
-
-    .password h1{
-      font-size: 15px;
-    }
-
-   footer .icons {
-     margin-left: 30%;
-     padding-top: 1%;
-   }    
+  
