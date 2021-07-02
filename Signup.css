@@ -94,40 +94,34 @@ overflow:hidden;
 }
 
 .signup{
-    position: absolute;
-    width: 300px;
-    height: 460px;
+    width: 325px;
+    margin-left: 40%;
+    margin-top: -8%;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 25px;
+    height: 60vh;
     left: 780px;
-    top: 190px;
     background: #FAD862;
     box-shadow:  9px 10px 20px 8px rgba(0, 0, 0, 0.25);
-    padding-top: 75px;
-    padding-left: 100px;
-    padding-right: 75px;
-    margin-left: 0px;
-    text-align: center;
+    
  }
 
-.h2 {
-  position: absolute;
-  width: 5px;
-  margin-left: 30px;
-  padding-left: 55px;
-  top: 68px;
+h2 {
+  margin-left: 18%;
+  padding: 25px;
   font-family: DM Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 41px;
-  line-height: 49px;
+  font-size: 33px;
   display: flex;
-  align-items: center;
   text-align: center;
   color: black;
   
 }  
  .FN{
     position: absolute;
-    padding-top: 25px;
+    padding-top: 40px;
     
     
  }
@@ -142,45 +136,24 @@ h1{
   display: flex;
   color: black;
 }
-input[type=text] {
-    padding-top: 15px;
-    margin-left: px;
-    padding-left: 75px;
-    padding-right: 75px;
-    
-}
-.email{
-    position: absolute;
-    padding-top: 25px;
-    padding-left: px;
-}
-.ph{
-    position: absolute;
-    padding-top: 10px;
-    padding-left: 0px;
-}
-.password{
-    padding-top: 10px;
-}
-.cp{
-  padding-top: 12px;
-  text-align: center;
-    
-}
-.signin{
- padding-top: 75px;
- margin: 50px;
- text-align: center;
- color: #c4c4c4;
 
+input[type=text] {
+    padding: 8px;
+    margin: 5%;
+    width: 95%;
+   
 }
+
 button[type=button]{
-  margin-left: -30px;
-  margin-top: 33px;
+  margin-left: 40%;
+  margin-top: 15%;
+  font-size: 20px;
   }
 
 p{
- margin-left: -40px;
+ margin-left: 25%;
+ margin-right: -80%;
+ font-size: 20px;
   
  }
  footer{
@@ -194,13 +167,25 @@ p{
   }
   
   footer .icons{
-      margin-left:0%;
+      margin-left:45%;
       padding-top:1%;
     }
     
     footer a{
       padding:1em;
     }
-      
-  
-  
+    @media only screen and (max-width: 800px) {
+
+      .signup{
+        margin-left: 30%;
+        padding-top: 25px;
+        height: 100vh;
+        
+      }
+      h2{
+        font-size: 30px;
+      }
+
+     .FN{
+       margin-top: -5%;
+     }
