@@ -44,18 +44,44 @@ main{
     flex-direction: column;
 }
 .header h2{
+    margin-left:40%;
+    padding-top:50px;
+    font-family: DM Sans;
+    font-style: normal;
     font-weight: bold;
-    font-size: 34px;
-    margin-left:45%;
-    padding-top:50px
+    font-size: 37px;
+    line-height: 48px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 24px;
 }
 .header nav{
-    list-style-type: none;
-    text-decoration:none;  
+    position: relative;
+    bottom: 64px;
+    left: 0px;
     font-size:20px;
     margin-left:65%;
-    
-    
+}
+.header a{
+    text-decoration:none;
+    color: #FFFFFF;
+    margin-left: 39px;
+    font-family: var(--dmsans);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    border: 0px soild var(--blue);
+}
+.header a:hover{
+    padding: 5px;
+    border: 2px var(--yellow) solid;
+}
+.headerImg{
+    position: relative;
+    right: 28px;
+    top: 9px;
 }
 .productInfo{
     display: flex;
@@ -77,9 +103,10 @@ section img{
     line-height: 17px;
 
 }
-/* .buyButton{
-button styling
-} */
+.buyButton{
+    background-color: #FAD862;
+    color: var(--white);
+}
 
 footer{
     position: fixed;
