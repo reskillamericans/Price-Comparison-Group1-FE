@@ -96,23 +96,17 @@ overflow:hidden;
 .loginbox{
     position: absolute;
     width: 353px;
-    height: 456px;
-    left: 800px;
-    top: 275px;
+    height: 380px;
+    left: 525px;
+    top: 180px;
     background: #FAD862;
     box-shadow: -6px 10px 20px 8px rgba(0, 0, 0, 0.25);
-    padding-top: 115px;
-    padding-left: 70px;
-    padding-bottom: 0px;
-    margin-top: 5px;
-    margin-left: 50px;
-    margin-bottom: 5px;
-}
+    }
 h2 {
   position: absolute;
   width: 103px;
-  left: 155px;
-  top: 100px;
+  left: 125px;
+  top: 50px;
   font-family: DM Sans;
   font-style: normal;
   font-weight: normal;
@@ -126,8 +120,8 @@ h2 {
 }  
  .email{
     position: absolute;
-    padding-top: 100px;
-    padding-left: 100px;
+    padding-top: 125px;
+    padding-left: 150px;
  }
 h1{
   position: absolute;
@@ -154,13 +148,13 @@ input[type=text] {
  color: #c4c4c4;
 }
 button[type=button]{
-  margin-left: 10px;
+  margin-left: -3px;
   margin-top: 30px;
   font-size: 15px;
 }
 
 p{
-  margin-left: -10px;
+  margin-left: -20px;
 }
 
 footer{
@@ -182,37 +176,15 @@ footer .icons{
     padding:1em;
   }
 
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 600px) {
     
-    .header h1{
-      margin-left: 42%;
-      font-size: 28px;
-      padding-top: 5%;
+    .main{
+      width: 100%;
+      padding: 0px;
     }
-
-    .header .navlinks{
-      font-size: 15px;
-      margin-left: 60%;
-    }
-
     .loginbox{
-      margin-left: -60%;
-      margin-top: -10%;
-     
+      width: 100%;
+      padding: 0px;
     }
 
-    .email h1{
-      font-size: 15px;
-    }
-
-    .password h1{
-      font-size: 15px;
-    }
-
-   footer .icons {
-     margin-left: 30%;
-     padding-top: 1%;
-   }    
     
-
-
