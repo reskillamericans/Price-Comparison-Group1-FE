@@ -44,6 +44,7 @@ body{
   margin-left:65%;
   display:flex;
   justify-content: space-evenly;
+  margin-top: -1%;
 }
 
 .header .navlinks a{
@@ -57,8 +58,9 @@ body{
 
 .navlinks li a:hover, .navlinks li a:focus{
  background-color:var(--white);
- border-radius: 25px;
+ border-radius: 15px;
   border-color:var(--yellow);
+  padding:5px;
   color:var(--yellow);
   font-weight:bold;
 }
@@ -166,7 +168,8 @@ overflow:hidden;
 }
 
 section{  
-  margin-bottom: 3%;
+  margin-bottom: 7%;
+  margin-top: 7%;
 }
 
 section h2{
@@ -240,6 +243,17 @@ footer a{
     display: block;
   }
 
+  .navlinks li a:hover, .navlinks li a:focus{
+    background-color:var(--white);
+    border-radius: 5px;
+     border-color:var(--yellow);
+     padding:1px;
+     color:var(--yellow);
+     font-weight:bold;
+  } 
+
+
+
   #layer2 {
     margin-top: -42%;
     position: relative;
@@ -259,12 +273,13 @@ footer a{
   .aboutus h2{
     font-size:20px;
     padding-top:0%;
-    margin-left: 37%;
+    margin-left: 26%;
     padding-top: -3%;
   }
 
   .aboutus p{
     font-size: 16px;
+    padding:12px;
     margin-top: -2%;
   }
 
@@ -286,8 +301,8 @@ footer a{
   }
 
   section{
-    margin-top:7%;
-    margin-bottom: 3%;
+    margin-top:14%;
+    margin-bottom: 10%;
   }
 
 
