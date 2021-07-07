@@ -96,8 +96,8 @@ overflow:hidden;
 .loginbox{
     position: absolute;
     width: 353px;
-    height: 385px;
-    left: 530px;
+    height: 395px;
+    left: 590px;
     top: 180px;
     background: #FAD862;
     box-shadow: -6px 10px 20px 8px rgba(0, 0, 0, 0.25);
@@ -161,6 +161,11 @@ p:hover{
 
 p{
   margin-left: -15%;
+ 
+}
+
+p span{
+ text-decoration: underline;
 }
 
 footer{
