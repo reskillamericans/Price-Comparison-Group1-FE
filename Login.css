@@ -93,35 +93,28 @@ border-color: transparent var(--aqua) transparent transparent;
 overflow:hidden;
 }
 
+
+
 .loginbox{
-    position: absolute;
+    margin: auto;
+    padding: 2em;
     width: 353px;
-    height: 380px;
-    left: 525px;
-    top: 180px;
     background: #FAD862;
     box-shadow: -6px 10px 20px 8px rgba(0, 0, 0, 0.25);
     }
+
 h2 {
-  position: absolute;
-  width: 103px;
-  left: 125px;
-  top: 50px;
   font-family: DM Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 38px;
+  font-size: 30px;
   line-height: 49px;
-  display: flex;
-  align-items: center;
   text-align: center;
   color: black;
   
 }  
  .email{
-    position: absolute;
-    padding-top: 125px;
-    padding-left: 150px;
+   margin: 0;
  }
 h1{
   position: absolute;
@@ -134,8 +127,8 @@ h1{
   color: black;
 }
 input[type=text] {
-    margin-left: -50px;
-    padding-top: 10px;
+  padding: 0.7em;
+  border: none;
     
 }
 .password{
@@ -154,13 +147,13 @@ button[type=button]{
 }
 
 p{
-  margin-left: -20px;
+  display: inline;
 }
 
 footer{
   position: fixed;
   width: 100%;
-  height: 2.5rem;
+  height: 1.0rem;
   bottom: 0px;
   left: 0px;
   background-color: #1938A7;
@@ -176,15 +169,4 @@ footer .icons{
     padding:1em;
   }
 
-  @media only screen and (max-width: 600px) {
-    
-    .main{
-      width: 100%;
-      padding: 0px;
-    }
-    .loginbox{
-      width: 100%;
-      padding: 0px;
-    }
-
-    
+  
