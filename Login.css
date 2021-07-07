@@ -96,8 +96,8 @@ overflow:hidden;
 .loginbox{
     position: absolute;
     width: 353px;
-    height: 380px;
-    left: 525px;
+    height: 385px;
+    left: 530px;
     top: 180px;
     background: #FAD862;
     box-shadow: -6px 10px 20px 8px rgba(0, 0, 0, 0.25);
@@ -134,27 +134,33 @@ h1{
   color: black;
 }
 input[type=text] {
-    margin-left: -50px;
-    padding-top: 10px;
+    width: 200px;
+    margin-left: -70px;
+    padding-top: 15px;
+    border-radius: 0%;
     
 }
 .password{
-    padding-top: 25px;
+    padding-top: 30px;
 }
+
 .signin{
- padding-top: 100px;
- margin: -50px;
  text-align: center;
  color: #c4c4c4;
 }
+
 button[type=button]{
   margin-left: -3px;
   margin-top: 30px;
-  font-size: 15px;
+  font-size: 18px;
+}
+
+p:hover{
+  background-color: yellow;
 }
 
 p{
-  margin-left: -20px;
+  margin-left: -15%;
 }
 
 footer{
