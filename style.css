@@ -53,19 +53,19 @@
     .logo{
    
         align-self: center;
-         margin-left: 43rem;
+         /* margin-left: 43rem; */
         padding: 1em; 
     }
 
     main{
         display: flex;
-        align-items: center;
+        align-items: flex-start;
     }
 
 
     #main-photo {
         background-image: url("./images/main-photo.svg");
-        height:  86vh;
+        height:  84vh;
         flex-basis: 50%;
         background-size: contain ;
         background-repeat: no-repeat;
@@ -77,7 +77,7 @@
         flex-direction: column;   
         justify-content: start;
         align-items:flex-start ;  
-        margin-top:  6rem;
+        margin-top:  5rem;
     }
 
     .logo2{
