@@ -15,7 +15,7 @@ Please always follow the right format before making pull request.
 
 * After working on your page, create an upstream on your local machine to pull the latest codes from the test branch of this repository `git remote add upstream https://github.com/reskillamericans/Price-Comparison-Group1-FE.git` 
 
-* And  REMEMBER TO PULL UPDATES - `git pull upstream test
+* And  REMEMBER TO PULL UPDATES - `git pull upstream test`
 
 * Then push your work `git add .` | `git commit -m "any-message"` | `git push origin <your-branch-name>`
 
