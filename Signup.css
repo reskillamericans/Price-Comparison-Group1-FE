@@ -33,7 +33,7 @@ body{
   font-family:var(--dmsans);
   font-weight: bold;
   font-size: 34px;
-  margin-left: 44%;
+  margin-left: 45%;
   padding-top:50px
 }
 
@@ -101,8 +101,7 @@ overflow:hidden;
     margin-bottom: 15%;
     padding-left: 35px;
     background: #FAD862;
-    box-shadow:  9px 10px 20px 8px rgba(0, 0, 0, 0.25);
-    
+        
  }
 
 h2 {
@@ -139,24 +138,32 @@ input[type=text] {
     padding: 8px;
     margin: 5%;
     width: 95%;
-    border-radius: 0%;
+    
    
 }
 
 button[type=button]{
-  margin-left: 40%;
+  margin-left: 39%;
   margin-top: 15%;
-  font-size: 20px;
+  font-size: 24px;
   }
+
+button:hover{
+  background-color: yellow;
+}
 
 p{
  margin-left: 25%;
  margin-right: -80%;
  font-size: 20px;
+ cursor: pointer;
 }
 
  p span{
    text-decoration: underline;
+   color: black;
+   font-weight: 700;
+   cursor: pointer;
  }
   
  
@@ -180,16 +187,52 @@ p{
     }
     @media only screen and (max-width: 800px) {
 
+      .header h1{
+        margin-left: 42%;
+        font-size: 30px;
+        padding-top: 30px;
+      }
+
+      .header .navlinks{
+        margin-left: -4%;
+        
+      }
+
       .signup{
-        margin-left: 28%;
-        margin-top: -10%;
-        height: 50vh;
+        margin-left: 30%;
+        margin-top: -20%;
+        height: 55vh;
         
       }
       h2{
-        font-size: 30px;
+        font-size: 40px;
       }
 
      .FN{
        margin-top: -5%;
      }
+     footer .icons{
+       margin-left: 40%;
+       
+     }
+
+     @media only screen and (max-width: 400px) {
+
+      .header h1{
+        margin-left: 39%;
+        font-size: 20px;
+        padding-top: 30px;
+      }
+
+      .header .navlinks{
+        margin-left: -2%;
+        font-size: 15px;
+      }
+      .signup{
+        margin-left:-5%;
+        margin-top: -30%;
+        height: 95vh;
+      }
+      
+        footer .icons{
+          margin-left: 15%;
