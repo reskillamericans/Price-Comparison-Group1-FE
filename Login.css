@@ -99,12 +99,6 @@ overflow:hidden;
     margin: auto;
     padding: 2em;
     width: 353px;
-<<<<<<< HEAD
-    height: 395px;
-    left: 590px;
-    top: 180px;
-=======
->>>>>>> 649bd19c618db3d6955374f28aa20d207369f256
     background: #FAD862;
     box-shadow: -6px 10px 20px 8px rgba(0, 0, 0, 0.25);
     }
@@ -120,7 +114,7 @@ h2 {
   
 }  
  .email{
-   margin: 0;
+   margin-left: 20%;
  }
 h1{
   position: absolute;
@@ -132,16 +126,14 @@ h1{
   display: flex;
   color: black;
 }
+
+.email h1{
+  margin-left: 9%;
+}
 input[type=text] {
-<<<<<<< HEAD
-    width: 200px;
-    margin-left: -70px;
-    padding-top: 15px;
-    border-radius: 0%;
-=======
   padding: 0.7em;
   border: none;
->>>>>>> 649bd19c618db3d6955374f28aa20d207369f256
+  padding-left: 70px;
     
 }
 .password{
@@ -151,6 +143,7 @@ input[type=text] {
 .signin{
  text-align: center;
  color: #c4c4c4;
+ 
 }
 
 button[type=button]{
@@ -159,21 +152,13 @@ button[type=button]{
   font-size: 18px;
 }
 
-p:hover{
-  background-color: yellow;
-}
-
-p{
-<<<<<<< HEAD
-  margin-left: -15%;
- 
-}
-
 p span{
- text-decoration: underline;
-=======
+  text-decoration: underline;
+  cursor: pointer;
+}
+  
+p{
   display: inline;
->>>>>>> 649bd19c618db3d6955374f28aa20d207369f256
 }
 
 footer{
@@ -195,4 +180,39 @@ footer .icons{
     padding:1em;
   }
 
+  @media only screen and (max-width: 800px) {
+    .header h1{
+      margin-left: 40%;
+      padding-top: 30px;
+      font-size: 30px;
+    }
+    .header .navlinks{
+      margin-left: 10%;
+  }
   
+  .loginbox{
+    margin-top: -15%;
+  }
+
+  footer .icons{
+    margin-left: 37%;
+  }
+
+  @media only screen and (max-width: 400px) {
+    .header h1{
+      font-size: 25px;
+      margin-left: 35%;
+    }
+    .header .navlinks{
+      margin-left: -5%;
+      font-size: 15px;
+    }
+
+    .loginbox{
+      margin-left: -5%;
+      margin-top: -25%;
+    }
+
+    footer .icons{
+      margin-left: 25%;
+    }
