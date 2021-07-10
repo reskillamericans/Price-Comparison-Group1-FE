@@ -4,6 +4,10 @@
     margin: 0 auto;
     
 }
+  ::-webkit-scrollbar-thumb{
+    width: 10px;
+    background: var(--grey);
+  }
 :root{
     --green:#f7fff7;
     --blue:#02239a;
@@ -83,14 +87,19 @@ main{
     right: 28px;
     top: 9px;
 }
-.productInfo{
+section{
     display: flex;
     flex-direction: row;
-    margin-top: 10%;
+    position: relative;
+    top: 310px;
+    padding: 100px;
 }
-section img{
+.left img{
     width: 550px;
     height: 350px;
+}
+.right{
+    padding-left: 25px;
 }
 .perks{
     line-height: 23px;
@@ -101,11 +110,18 @@ section img{
     font-weight: bold;
     font-size: 13px;
     line-height: 17px;
-
+    list-style-type: circle;
 }
-.buyButton{
-    background-color: #FAD862;
-    color: var(--white);
+.buyButton button{
+    background-color: var(--yellow);
+    color: var(--green);
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    margin-left: 39px;
+    margin-top: 20px;
 }
 
 footer{
