@@ -15,7 +15,10 @@
     --aqua:#4bb8d8;
     --teal:#2c8daa;
   }
-
+  ::-webkit-scrollbar-thumb{
+    width: 10px;
+    background: var(--grey);
+  }
 body{
     font-family: var(--dmsans);
     height: auto;
