@@ -2,8 +2,8 @@
 
 *{
   margin:0;
-}
-
+  }
+  
 :root{
   --green:#f7fff7;
   --blue:#02239a;
@@ -58,8 +58,8 @@ body{
 .navlinks li a:hover, .navlinks li a:focus{
  background-color:var(--white);
  border-radius: 25px;
-  border-color:var(--yellow);
-  color:var(--yellow);
+ border-color:var(--yellow);
+ color:var(--yellow);
   font-weight:bold;
 }
 
@@ -94,8 +94,8 @@ overflow:hidden;
 }
 
 .signup{
-    width: 350px;
-    height: 95vh;
+    width: 380px;
+    height: 39em;
     margin-left: 38%;
     margin-top: -3%;
     margin-bottom: 15%;
@@ -118,10 +118,9 @@ h2 {
 }  
  .FN{
     position: absolute;
-    padding-top: 40px;
-    
-    
- }
+       
+    }
+
 h1{
   position: absolute;
   font-family: DM Sans;
@@ -135,27 +134,29 @@ h1{
 }
 
 input[type=text] {
-    padding: 8px;
-    margin: 5%;
-    width: 95%;
-    
-   
+    padding: 14px;
+    margin: 15px;
+    width: 300px;
+    border: none;
+     
 }
 
 button[type=button]{
-  margin-left: 39%;
-  margin-top: 15%;
+  width: 70%;
+  margin-left: 14px;
+  margin-top: 15px;
   font-size: 24px;
+  padding: 0.2em;
+  border: none;
   }
 
 button:hover{
-  background-color: yellow;
+  border: 1px solid gray;
 }
 
 p{
- margin-left: 25%;
- margin-right: -80%;
- font-size: 20px;
+ margin-left: 15px;
+ font-size: 18px;
  cursor: pointer;
 }
 
@@ -199,9 +200,9 @@ p{
       }
 
       .signup{
-        margin-left: 30%;
-        margin-top: -20%;
-        height: 55vh;
+        margin-left: 160px;
+        margin-top: -160px;
+        height: 35em;
         
       }
       h2{
@@ -212,27 +213,60 @@ p{
        margin-top: -5%;
      }
      footer .icons{
-       margin-left: 40%;
+       margin-left: 260px;
        
      }
 
      @media only screen and (max-width: 400px) {
 
+      .header{
+        margin: auto;
+      }
+
+      .triangles{
+        overflow: none;
+      }
+
       .header h1{
-        margin-left: 39%;
+        margin-left: 130px;
         font-size: 20px;
         padding-top: 30px;
       }
 
       .header .navlinks{
-        margin-left: -2%;
-        font-size: 15px;
+        margin-left: -65px;
+        font-size: 12px;
       }
       .signup{
-        margin-left:-5%;
-        margin-top: -30%;
-        height: 95vh;
+        margin-left: 40px;
+        margin-top: -100px;
+        height: 60vh;
+        width: 250px;
+      }
+
+      .signup h2{
+        font-size: 20px;
+        margin-left: 55px;
       }
       
+      input[type=text]{
+        padding: 10px;
+        margin: 8px;
+        width: 190px;
+        border: none;
+      }
+
+      button[type=button]{      
+        margin-left: 0.4px;
+        margin-top: 15px;
+        font-size: 16px;
+        padding: 0.2em;
+        border: none;
+      }
+
+      p{
+        margin-left: 10px;
+        font-size: 9px;
+      }
         footer .icons{
-          margin-left: 15%;
+          margin-left: 80px;
