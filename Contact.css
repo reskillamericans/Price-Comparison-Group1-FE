@@ -2,12 +2,7 @@
 /* universal styling */
 *{
     margin: 0 auto;
-    
 }
-  ::-webkit-scrollbar-thumb{
-    width: 10px;
-    background: var(--grey);
-  }
 :root{
     --green:#f7fff7;
     --blue:#02239a;
@@ -20,18 +15,17 @@
     --aqua:#4bb8d8;
     --teal:#2c8daa;
   }
-ul{
-    list-style: none;
-}
-button{
-    width: 200px;
-    height: 40px;
-    display: inline;
-}
+  ::-webkit-scrollbar-thumb{
+    width: 10px;
+    background: var(--grey);
+  }
 body{
     font-family: var(--dmsans);
     height: auto;
     position: absolute;
+    max-width: 1600px;
+    min-width: 1200px;
+    width: 100%;
 }
 main{
     display: flex;
@@ -39,15 +33,14 @@ main{
     flex-direction: column;
     align-items: center;
 }
-/* header styling */
-.header{
+header{
     background-color:var(--blue);
     width: 100%;
     height:85px;
     display: flex;
     flex-direction: column;
 }
-.header h2{
+header h2{
     margin-left:40%;
     padding-top:50px;
     font-family: DM Sans;
@@ -61,14 +54,14 @@ main{
     position: relative;
     bottom: 24px;
 }
-.header nav{
+header nav{
     position: relative;
     bottom: 64px;
     left: 0px;
     font-size:20px;
     margin-left:65%;
 }
-.header a{
+header a{
     text-decoration:none;
     color: #FFFFFF;
     margin-left: 39px;
@@ -78,7 +71,7 @@ main{
     font-weight: normal;
     border: 0px soild var(--blue);
 }
-.header a:hover{
+header a:hover{
     padding: 5px;
     border: 2px var(--yellow) solid;
 }
@@ -87,43 +80,41 @@ main{
     right: 28px;
     top: 9px;
 }
-section{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    top: 310px;
-    padding: 100px;
+article{
+    text-align: center;
+    
 }
-.left img{
-    width: 550px;
-    height: 350px;
+article h2{
+    position: relative;
+    top: 161px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+}
+article p{
+    position: relative;
+    top: 220px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+section{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 314px
 }
 .right{
-    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
 }
-.perks{
-    line-height: 23px;
-}
-.productAbout{
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 13px;
-    line-height: 17px;
-    list-style-type: circle;
-}
-.buyButton button{
-    background-color: var(--yellow);
-    color: var(--green);
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    border: none;
-    margin-left: 39px;
-    margin-top: 20px;
-}
-
 footer{
     position: fixed;
     width: 100%;
