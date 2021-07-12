@@ -42,7 +42,7 @@ body{
   list-style-type: none;
   text-decoration:none;  
   font-size:20px;
-  margin-left:65%;
+  margin-left:60%;
   padding-top: 60px;
   display:flex;
   justify-content: space-evenly;
@@ -56,13 +56,13 @@ body{
 }
 
 .navlinks li a:hover, .navlinks li a:focus{
- background-color:var(--white);
- border-radius: 25px;
- border-color:var(--yellow);
- color:var(--yellow);
-  font-weight:bold;
+ padding: 5px;
+ border: 2px var(--yellow) solid;
 }
-
+.header .navlinks i{
+  position: relative;
+  left: 30px;
+}
 #layer1{
   position: relative;
   z-index: 0;
@@ -236,6 +236,11 @@ p{
       .header .navlinks{
         margin-left: -65px;
         font-size: 12px;
+      }
+
+      .header .navlinks i{
+        position: relative;
+        left: 6px;
       }
       .signup{
         margin-left: 40px;
