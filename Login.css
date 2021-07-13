@@ -148,6 +148,7 @@ button[type=button]{
   margin-left: -60px;
   margin-top: 30px;
   font-size: 24px;
+  border: none;
 }
 p{
   display: inline;
