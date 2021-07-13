@@ -108,8 +108,8 @@ nav{
   .title{
         position: relative;
          z-index: 1; 
-         margin-left:42%;
-        margin-top:-12%;    
+         margin-left: 38rem;
+        margin-top:-10rem;    
         align-items: center;
       justify-content: center;
       font-size: 22px;
@@ -119,22 +119,30 @@ nav{
     position: relative;
     z-index: 1; 
     display: flex;   
-    margin-left: 10%;
+    margin-left: 2rem;
     margin-bottom: 4%;
+    justify-content: space-evenly;
   } 
 
   .photo{
       flex-basis: 20%;   
-      margin-top: 1%; 
-      margin-left: 5%;        
+     
+    
+      /* margin-left: .rem;         */
+  }
+
+  .photo img{
+    height: 340px;
+    width: 400px;
+     margin-top: 2rem;  
   }
 
   .container{
-      flex-basis: 55%;
+      flex-basis: 65%;
        display: grid; 
        height: 300px;
        margin-top:2%; 
-       grid-template-columns: .7fr  2fr  2fr ; 
+       grid-template-columns: .5fr  2.3fr  2.3fr ; 
        grid-template-rows: 1fr 2fr 1fr 1fr 1fr;
        grid-gap: 20px;
        position: relative;
@@ -143,7 +151,9 @@ nav{
   
 
   li :hover {
-    border: 2px solid var(--yellow);
+ border: 1px solid var(--yellow);
+    background-color: var(--yellow);
+    color: var(--navy-blue);
 
 }
   
@@ -161,10 +171,10 @@ nav{
   }
 
   .item3 a{
-    font-size: 18px;
-    font-weight: 700px;
+    font-size: 16px;
+    font-weight: 600px;
     color: var(--black) ;
-    line-height: 24px; 
+    line-height: 18px; 
     text-decoration: none;
   }
 
@@ -177,19 +187,20 @@ footer {
     background-color: var(--navy-blue);
     height: 2.8rem;
     margin-bottom: 0;
+    margin-top: 2rem;
 }
 
 .icon{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1em;
+    padding-top: 1em;
     
 }
 
 .fa-facebook-square:hover, .fa-linkedin:hover, .fa-instagram-square:hover, .fa-twitter:hover{
-   
-    background-color: var(--aqua-blue);
+  background-color: var(--yellow);
+  color: var(--navy-blue);
   }
 
 
@@ -207,9 +218,8 @@ footer {
        
         }
 
-        header{
-            
-            height: 7em;
+        header{    
+            height: 8em;
             justify-content:start;
 
         }
@@ -217,12 +227,13 @@ footer {
             .navigation a{
                 font-size:10px;    
                 line-height: 1em;
-                
-                /* margin-left:68%; */
               }
+              
             nav .navigation{
               display: block;
-              margin-top: -3%; 
+              margin-top: .5em; 
+             margin-left: .5em;
+             margin-bottom: .5em;
             }
 
             .triangle-left{
@@ -241,24 +252,30 @@ footer {
         .title{
             position: relative;
              margin-left: 25%;
-            margin-top:-50%;    
+            margin-top:-48%;    
           font-size: 12px;
       }
 
       .main-content{
         position: relative;
-        z-index: 1; 
+       
         flex-direction: column;
-        margin-left: 10%;
+        margin-left: 0%;
         margin-bottom: 2%;
       } 
 
+
+      .photo{
+        justify-content: center;
+        margin-left: 1.2rem;  
+        padding: .5em;
+        margin-top: 0%; 
+      }
       .photo img{
-        flex-basis: 20%;   
+        flex-basis: 50%;   
         margin-top: 0em; 
-        margin-left: 13%;    
-        height: 250px; 
-        
+        width: 300px;
+    
     }
 
     .container{
@@ -266,8 +283,6 @@ footer {
          display: grid; 
          height: 200px;
          margin-top:2%; 
-         /* grid-template-columns: .7fr  2fr  2fr ; 
-         grid-template-rows: 1fr 2fr 1fr 1fr 1fr; */
          grid-gap: 10px;
          position: relative;
          padding: 0px;
@@ -288,30 +303,24 @@ footer {
     }
     
     .item3 a{
-        font-size: 14px;
+        font-size: 11px;
         line-height: 18px; 
       }
 
-      i .far fa-user-circle {
-          font-size: 10px;
-          margin-top: 2px;
+      nav i  {
+          margin-top: .5em;
       }
 
       footer {
 
         height: 3.0rem;
         margin-bottom: 0;
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
 
-    .icon{
-       
- 
-        padding: 1em;
-        margin-left:  0rem; 
+    h2{
+      font-size: 2em;
     }
-
-
 
 
     }
