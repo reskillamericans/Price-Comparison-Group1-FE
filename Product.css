@@ -47,8 +47,8 @@ main{
     display: flex;
     flex-direction: column;
 }
-.header h2{
-    margin-left:40%;
+.header h1{
+    margin-left:43%;
     padding-top:50px;
     font-family: DM Sans;
     font-style: normal;
@@ -63,10 +63,10 @@ main{
 }
 .header nav{
     position: relative;
-    bottom: 64px;
+    bottom: 57px;
     left: 0px;
     font-size:20px;
-    margin-left:65%;
+    margin-left:63%;
 }
 .header a{
     text-decoration:none;
@@ -76,33 +76,69 @@ main{
     font-size: 16px;
     font-style: normal;
     font-weight: normal;
-    border: 0px soild var(--blue);
+    border: 2px soild none;
+    padding: 5px;
 }
 .header a:hover{
-    padding: 5px;
     border: 2px var(--yellow) solid;
 }
-.headerImg{
+#layer1{
     position: relative;
-    right: 28px;
-    top: 9px;
-}
+    z-index: 0;
+  }
+  
+  .triangles{
+  display:flex; 
+  justify-content:center;
+  overflow:hidden;
+  position: static;
+  }
+  
+  .triangle1{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30vh 114vh 0 0;
+  border-color: var(--teal) transparent transparent transparent;
+  }
+  
+  
+  .triangle2{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 113vh 30vh 0;
+  border-color: transparent var(--aqua) transparent transparent;
+  overflow:hidden;
+  }
+/* header styling */
 section{
     display: flex;
     flex-direction: row;
     position: relative;
-    top: 310px;
+    top: 0px;
     padding: 100px;
 }
 .left img{
     width: 550px;
     height: 350px;
 }
+.left i{
+    position: relative;
+    left: 260px;
+    
+}
 .right{
     padding-left: 25px;
 }
 .perks{
     line-height: 23px;
+}
+.starIcons span{
+    width: 44px;
+    height: 38px;
+    color: #FAD862;
+
 }
 .productAbout{
     font-family: DM Sans;
@@ -122,6 +158,9 @@ section{
     border: none;
     margin-left: 39px;
     margin-top: 20px;
+}
+.buyButton .rightB{
+    background-color: #CD8C0FBD;
 }
 
 footer{
