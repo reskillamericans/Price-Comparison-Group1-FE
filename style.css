@@ -10,6 +10,7 @@
     body{
         margin: 0;
         background-color: var(--whitefog);
+        font-family: "DM Sans";  
 
     }
 
@@ -27,19 +28,21 @@
 
     .navigation a {
         color: var(--white);
-        font-size: 1.5em;
+        font-size: 1.4em;
         font-weight: 400;
         flex-direction: space;
         line-height: 5em;
         text-decoration: none;
-       padding-right: 1.8em;
+       padding:.8em;
 
     }
 
     .navigation{
         display: flex;
         list-style: none;
-    }
+        align-items: center;
+        justify-content: space-between;
+    } 
 
     header{
         background-color:  var(--navy-blue);  
@@ -53,7 +56,7 @@
     .logo{
    
         align-self: center;
-         /* margin-left: 43rem; */
+        margin-left: 26rem; 
         padding: 1em; 
     }
 
@@ -77,11 +80,11 @@
         flex-direction: column;   
         justify-content: start;
         align-items:flex-start ;  
-        margin-top:  5rem;
+        margin-top:  10rem;
     }
 
     .logo2{
-        margin-left:  11rem;
+        margin-left:  9rem;
         }
 
 
@@ -129,25 +132,28 @@ button a{
 }
 
 .button2{
-    width: 14em ;
+    width: 13em ;
     background-color: var(--yellow);
     padding: .5em;
     border: none;
-    margin-left: 8.4rem;
+    margin-left: 7rem;
     font-size: 1.2rem;
     font-weight: 600;
     align-content: center;  
     text-decoration: none;
 }
 
-.buttons :hover {
+.buttons a :hover {
     background-color: var(--white);
-    border: 2px solid var(--yellow);
+    border: 1px solid #ffe76d85;
 }
 
 
 li :hover {
     border: 1px solid var(--yellow);
+    background-color: var(--yellow);
+    color: var(--navy-blue);
+
 
 }
 
@@ -173,7 +179,8 @@ a  .far fa-user-circle :hover{
 
 
     nav{
-        height: 5rem;
+        display: block;
+    height: 4rem;
       flex-direction: column;
       align-items: flex-start;  
       padding: 0em;
@@ -190,21 +197,24 @@ a  .far fa-user-circle :hover{
         .logo{
         margin-left: 2.5rem;
         font-size: 1.6rem;
-        padding-top: .8em;  
+        padding: 0.7em 0em 0.3em 1em;
+        /* padding-top: .8em;   */
         
     }
 
 
     i  {      
-        margin-right: 1.3em;
+        margin-right: .6em;
         font-size: 8px;
     }
 
 
     .navigation a {
-        font-size: 10px;
-        margin-left: 1.3em;
-        display: block;     
+        font-size: 13px;
+        /* margin-left: .5em; */
+        padding: 0.5em ;  
+        line-height: 1em;
+
     }
 
     #main-photo{    
@@ -227,17 +237,26 @@ a  .far fa-user-circle :hover{
 
     h1 {
         font-size: 1.6rem;
-       margin-bottom: 1em;
-        line-height: 2.0rem;
-        margin-left: 0.5em;   
-        /* margin-right: 2em; */
+        margin-bottom: 1em; 
+        line-height: 1.8rem;
+        margin-left: 0em;   
+        display:block ;
+         margin-right: 0em; 
+    }
+
+    .main-text {
+        margin-left: 0em;  
+        padding: 0em 2em 0.5em 0em; 
+    text-align: center;
     }
 
     .main-text p{
-        margin-left: 0.5em;   
-        font-size: 1.0rem; 
-        margin-right: 2em;
-        margin-bottom: .5em;
+        font-size: .9rem; 
+        margin-right: 0em;
+        margin-bottom: 0em;
+        margin-left: 0em;
+        /* display:block ; */
+        text-align: center;
     }
 
 
