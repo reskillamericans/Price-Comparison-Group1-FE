@@ -54,14 +54,14 @@ body{
   text-decoration:none;
   color:var(--white);
 }
-
 .navlinks li a:hover, .navlinks li a:focus{
- background-color:var(--white);
- border-radius: 25px;
-  border-color:var(--yellow);
-  color:var(--yellow);
-  font-weight:bold;
-}
+  padding: 5px;
+  border: 2px var(--yellow) solid;
+ }
+ .header .navlinks i{
+   position: relative;
+   left: 30px;
+ }
 
 #layer1{
   position: relative;
@@ -130,7 +130,7 @@ h1{
 input[type=text] {
   padding: 0.8em;
   border: none;
-  width: 95%;
+  width: 390px;
   margin-left: -60px;
     
 }
@@ -144,13 +144,16 @@ input[type=text] {
  
 }
 
-button[type=button]{
+button{
   margin-left: -60px;
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 24px;
+  border: none;
+  
 }
 p{
   display: inline;
+  margin-left: 210px;
 }
 p span{
   text-decoration: underline;
@@ -201,8 +204,11 @@ footer .icons{
       margin-left: 35%;
     }
     .header .navlinks{
-      margin-left: -5%;
+      margin-left: -60px;
       font-size: 15px;
+    }
+    .header .navlinks i{
+      left: 10px;
     }
 
     .loginbox{
@@ -220,8 +226,12 @@ footer .icons{
     }
     
     input[type=text] {
-      width: 70%;
+      width: 300px;
       border: none;
+    }
+
+    p{
+      margin-left: 118px;
     }
 
     footer .icons{
