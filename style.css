@@ -1,1 +1,291 @@
-/* Write the Landing page styling here */
+:root{
+    --navy-blue: #02239A;
+    --yellow: #FFE66D;
+    --black:  #000000;  
+    --white: #FFFFFF;   
+    --lightblue: #00ace6;
+    --whitefog: #E5E5E5;
+    }
+
+    body{
+        margin: 0;
+        background-color: var(--whitefog);
+        font-family: "DM Sans";  
+
+    }
+
+    nav{
+        display: flex;
+        align-items: center;     
+        width: 99%; 
+        height: 70px;
+        color: var(--white);
+     
+        justify-content: space-between;
+        padding: .4em;
+        
+    }
+
+    .navigation a {
+        color: var(--white);
+        font-size: 1.4em;
+        font-weight: 400;
+        flex-direction: space;
+        line-height: 5em;
+        text-decoration: none;
+       padding:.8em;
+
+    }
+
+    .navigation{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+    } 
+
+    header{
+        background-color:  var(--navy-blue);  
+    }
+
+    ul{
+        margin: 0em;
+        padding: 0em;
+    }
+
+    .logo{
+   
+        align-self: center;
+        margin-left: 26rem; 
+        padding: 1em; 
+    }
+
+    main{
+        display: flex;
+        align-items: flex-start;
+    }
+
+
+    #main-photo {
+        background-image: url("./images/main-photo.svg");
+        height:  84vh;
+        flex-basis: 50%;
+        background-size: contain ;
+        background-repeat: no-repeat;
+    }
+
+    .box-right{
+        display: flex;
+        flex-basis: 50%;      
+        flex-direction: column;   
+        justify-content: start;
+        align-items:flex-start ;  
+        margin-top:  10rem;
+    }
+
+    .logo2{
+        margin-left:  9rem;
+        }
+
+
+        h1 {
+            font-size: 2.6rem;
+           
+           margin-bottom: 1em;
+            line-height: 3.0rem;
+            margin-left: 0.5em;   
+            margin-right: 2em;
+        }
+
+        .main-text p{
+            margin-left: 0.9em;   
+            font-size: 1.5rem; 
+            margin-right: 2em;
+            font-weight: 600;
+        }
+
+        
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        font-family: "DM Sans";   
+    }
+
+    
+.button1{
+    width: 20vw ;
+    margin-bottom: 2.3rem;
+    background-color: var(--yellow);
+    border: none;
+    margin-left:  5.0rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding: .5em;
+    align-content: center;
+}
+
+button a{
+
+    text-decoration: none;
+    color: var(--black);
+}
+
+.button2{
+    width: 13em ;
+    background-color: var(--yellow);
+    padding: .5em;
+    border: none;
+    margin-left: 7rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    align-content: center;  
+    text-decoration: none;
+}
+
+.buttons a :hover {
+    background-color: var(--white);
+    border: 1px solid #ffe76d85;
+}
+
+
+li :hover {
+    border: 1px solid var(--yellow);
+    background-color: var(--yellow);
+    color: var(--navy-blue);
+
+
+}
+
+
+a  .far fa-user-circle :hover{
+    border: 1px solid var(--yellow);
+}
+
+
+
+@media  screen and (max-width: 600px) {
+
+
+    body{
+        overflow-x: hidden;   
+
+    }
+    main{
+        display: block;
+        
+    }
+
+
+
+    nav{
+        display: block;
+    height: 4rem;
+      flex-direction: column;
+      align-items: flex-start;  
+      padding: 0em;
+      width: 100%;
+      justify-content:flex-start;
+      margin-left: 0;
+      padding-bottom: 3em;
+    }
+
+
+   
+
+      
+        .logo{
+        margin-left: 2.5rem;
+        font-size: 1.6rem;
+        padding: 0.7em 0em 0.3em 1em;
+        /* padding-top: .8em;   */
+        
+    }
+
+
+    i  {      
+        margin-right: .6em;
+        font-size: 8px;
+    }
+
+
+    .navigation a {
+        font-size: 13px;
+        /* margin-left: .5em; */
+        padding: 0.5em ;  
+        line-height: 1em;
+
+    }
+
+    #main-photo{    
+        width:  100vw;
+        height: 60vh;
+    }
+
+.box-right{
+    margin-top: .5rem;
+}
+
+
+.logo2{
+    margin-left:  3.3rem;
+    font-size: .5rem;
+    display: none;
+
+    }
+
+
+    h1 {
+        font-size: 1.6rem;
+        margin-bottom: 1em; 
+        line-height: 1.8rem;
+        margin-left: 0em;   
+        display:block ;
+         margin-right: 0em; 
+    }
+
+    .main-text {
+        margin-left: 0em;  
+        padding: 0em 2em 0.5em 0em; 
+    text-align: center;
+    }
+
+    .main-text p{
+        font-size: .9rem; 
+        margin-right: 0em;
+        margin-bottom: 0em;
+        margin-left: 0em;
+        /* display:block ; */
+        text-align: center;
+    }
+
+
+    .buttons{
+        margin-top: 1.5rem; 
+        justify-content: center; 
+         
+    }
+
+    .button1{
+        width: 13em ;
+        margin-bottom: 1.5rem;
+        margin-left: 3.5rem;
+        font-size: 1.0rem;
+        padding: .5em;
+        align-content: center;
+    }
+
+
+    .button2{
+     
+        height: 2em; 
+        width: 14em ;
+        padding: .5em;
+        margin-left: 4.3rem;
+        font-size: .8rem;
+        font-weight: 600;
+        align-content: center; 
+        margin-bottom: 1.5rem;
+    }
+
+}
