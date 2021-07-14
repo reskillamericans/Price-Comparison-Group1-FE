@@ -33,13 +33,14 @@
         flex-direction: space;
         line-height: 5em;
         text-decoration: none;
-       padding:.8em;
+       padding: .3em;
 
     }
 
     .navigation{
         display: flex;
         list-style: none;
+        width: 30%;
         align-items: center;
         justify-content: space-between;
     } 
