@@ -106,7 +106,7 @@
         }
 
         
-    .buttons{
+    .button{
         display: flex;
         flex-direction: column;
         margin-top: 2rem;
@@ -144,7 +144,7 @@ button a{
     text-decoration: none;
 }
 
-.buttons a :hover {
+.button a :hover {
     background-color: var(--white);
     border: 1px solid #ffe76d85;
 }
@@ -192,7 +192,9 @@ a  .far fa-user-circle :hover{
     }
 
 
-   
+    .navigation{
+        width: 100%;
+    }
 
       
         .logo{
@@ -261,7 +263,7 @@ a  .far fa-user-circle :hover{
     }
 
 
-    .buttons{
+    .button{
         margin-top: 1.5rem; 
         justify-content: center; 
          
