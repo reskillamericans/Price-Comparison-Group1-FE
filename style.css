@@ -106,7 +106,7 @@
         }
 
         
-    .button{
+    .buttons{
         display: flex;
         flex-direction: column;
         margin-top: 2rem;
@@ -144,7 +144,7 @@ button a{
     text-decoration: none;
 }
 
-.button a :hover {
+.buttons a :hover {
     background-color: var(--white);
     border: 1px solid #ffe76d85;
 }
