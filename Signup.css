@@ -58,7 +58,7 @@ li{
   padding: 0.2px;
 }
 li :hover{
-  background-color: yellow;
+  background-color: var(--white);
   border-radius: 5px;
 }
 
@@ -277,3 +277,5 @@ p{
       }
         footer .icons{
           margin-left: 80px;
+
+        }
