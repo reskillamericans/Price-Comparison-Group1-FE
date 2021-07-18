@@ -55,11 +55,11 @@ body{
   color:var(--white);
 }
 li{
-  padding: 0.2px
+  padding: 0.2px;
 }
 
 li :hover{
-  background-color: yellow;
+  background-color: var(--white);
   border-radius: 5px;
 }
  
