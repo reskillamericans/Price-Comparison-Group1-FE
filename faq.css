@@ -59,7 +59,7 @@ body{
 .navlinks li a:hover, .navlinks li a:focus{
  background-color:var(--white);
  border-radius: 15px;
-  border-color:var(--yellow);
+border-color:var(--yellow);
   padding:5px;
   color:var(--yellow);
   font-weight:bold;

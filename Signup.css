@@ -54,18 +54,18 @@ body{
   text-decoration:none;
   color:var(--white);
 }
-
 li{
-  padding: 0.2px;
+  padding: 0.1px;
 }
+
 li :hover{
-  background-color: yellow;
+  background-color: var(--white);
   border-radius: 5px;
 }
-
-.header .navlinks i{
-  position: relative;
-  left: 30px;
+ 
+ .header .navlinks i{
+   position: relative;
+   left: 30px;
 }
 #layer1{
   position: relative;
@@ -278,3 +278,4 @@ p{
       }
         footer .icons{
           margin-left: 80px;
+        }
