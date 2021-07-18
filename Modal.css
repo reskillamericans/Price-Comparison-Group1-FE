@@ -67,8 +67,7 @@ nav{
 
 
 .navigation{
-    display: flex;
-   
+    display: flex;  
 }
 
   .bg-design{
@@ -127,8 +126,6 @@ nav{
   .photo{
       flex-basis: 20%;   
      
-    
-      /* margin-left: .rem;         */
   }
 
   .photo img{
@@ -308,7 +305,7 @@ footer {
       }
 
       nav i  {
-          margin-top: .5em;
+          margin-top: .2em;
       }
 
       footer {
