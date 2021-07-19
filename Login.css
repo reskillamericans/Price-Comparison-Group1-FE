@@ -59,7 +59,7 @@ li{
 }
 
 li :hover{
-  background-color: var(--white);
+  background-color: #ffe66d;
   border-radius: 5px;
 }
  
@@ -154,6 +154,8 @@ button{
   margin-top: 20px;
   font-size: 24px;
   border: none;
+  cursor: pointer;
+  
 }
 p{
   display: inline;
