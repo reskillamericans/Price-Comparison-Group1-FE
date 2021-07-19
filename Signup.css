@@ -59,7 +59,7 @@ li{
 }
 
 li :hover{
-  background-color: var(--white);
+  background-color: #ffe66d;
   border-radius: 5px;
 }
  
@@ -151,6 +151,7 @@ button[type=button]{
   font-size: 24px;
   padding: 0.2em;
   border: none;
+  cursor: pointer;
   }
 
 button:hover{
