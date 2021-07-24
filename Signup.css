@@ -54,14 +54,18 @@ body{
   text-decoration:none;
   color:var(--white);
 }
-
-.navlinks li a:hover, .navlinks li a:focus{
- padding: 5px;
- background-color: 2px var(--yellow) solid;
+li{
+  padding: 0.1px;
 }
-.header .navlinks i{
-  position: relative;
-  left: 30px;
+
+li :hover{
+  background-color: #ffe66d;
+  border-radius: 5px;
+}
+ 
+ .header .navlinks i{
+   position: relative;
+   left: 30px;
 }
 #layer1{
   position: relative;
@@ -147,6 +151,7 @@ button[type=button]{
   font-size: 24px;
   padding: 0.2em;
   border: none;
+  cursor: pointer;
   }
 
 button:hover{
@@ -274,3 +279,4 @@ p{
       }
         footer .icons{
           margin-left: 80px;
+        }
