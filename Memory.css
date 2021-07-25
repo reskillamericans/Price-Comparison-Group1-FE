@@ -58,12 +58,12 @@
   
   
   
-  .navlinks li a:hover, .navlinks li a:focus{
-   background-color:var(--white);
-   border-radius: 15px;
+  .navlinks li:hover, .navlinks li:focus{
+   background-color:var(--yellow);
+   border-radius: 4px;
     border-color:var(--yellow);
     padding:5px;
-    color:var(--yellow);
+    color:var(--black);
     font-weight:bold;
   }
   
@@ -189,16 +189,25 @@
     font-size: 18px;
   }
 
+  .addtocart button:hover{
+    background-color: var(--butterscotch);
+  }
+
   .buynow button{
       width: 20%;
       padding: 1%;
-      background-color:var(--butterscotch);
+      background-color:var(--yellow2);
       display:block;
       border: none;
       font-family:var(--dmsans);
       color:var(--white);
       font-weight: bold;
       font-size: 18px;
+  }
+
+  .buynow button:hover{
+    background-color: var(--butterscotch);
+
   }
 
   footer{
