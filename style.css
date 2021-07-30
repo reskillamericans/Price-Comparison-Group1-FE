@@ -6,58 +6,56 @@
     --lightblue: #00ace6;
     --whitefog: #E5E5E5;
     }
+    *{
+        margin:0;
+      }
 
     body{
-        margin: 0;
         background-color: var(--whitefog);
         font-family: "DM Sans";  
 
     }
-
-    nav{
-        display: flex;
-        align-items: center;     
-        width: 99%; 
-        height: 70px;
-        color: var(--white);
-     
-        justify-content: space-between;
-        padding: .4em;
-        
-    }
-
-    .navigation a {
-        color: var(--white);
-        font-size: 1.4em;
-        font-weight: 400;
-        flex-direction: space;
-        line-height: 5em;
-        text-decoration: none;
-       padding:.8em;
-
+    
+    header{
+        background-color:  var(--navy-blue);  
+        display:flex;
+        align-items: center;
+        text-decoration:none;
+        color:var(--white);
     }
 
     .navigation{
-        display: flex;
-        list-style: none;
-        align-items: center;
+        color:var(--white);
+        list-style-type: none;
+        text-decoration:none;  
+        font-size:1.2em;
+        display:flex;
+        margin-top: -0.4em;
+        margin-left: 5em;
         justify-content: space-between;
-    } 
-
-    header{
-        background-color:  var(--navy-blue);  
+        padding: .4em;
     }
 
-    ul{
-        margin: 0em;
-        padding: 0em;
+    .navigation a{
+        font-family:var(--dmsans);
+        text-decoration:none;
+        color:var(--white);
     }
+
+   header h1{
+    color:var(--white);
+    font-family:var(--dmsans);
+    font-weight: bold;
+    margin-left:43%;
+    padding-top:10px;
+    text-decoration: none;
+   }
 
     .logo{
    
         align-self: center;
-        margin-left: 26rem; 
-        padding: 1em; 
+        margin-left: 32rem; 
+        padding: 1em;
     }
 
     main{
@@ -80,7 +78,7 @@
         flex-direction: column;   
         justify-content: start;
         align-items:flex-start ;  
-        margin-top:  10rem;
+        margin-top: 4rem;
     }
 
     .logo2{
@@ -106,19 +104,22 @@
 
         
     .buttons{
-        display: flex;
-        flex-direction: column;
-        margin-top: 2rem;
-        font-family: "DM Sans";   
+        float: left;
+        font-family: "DM Sans";  
+        margin-top: 5em; 
+    }
+
+    .button{
+        float: left; 
+        margin-top: 1em;
     }
 
     
 .button1{
-    width: 20vw ;
+    width: 13em ;
     margin-bottom: 2.3rem;
     background-color: var(--yellow);
     border: none;
-    margin-left:  5.0rem;
     font-weight: 600;
     font-size: 1.3rem;
     padding: .5em;
@@ -134,13 +135,13 @@ button a{
 .button2{
     width: 13em ;
     background-color: var(--yellow);
-    padding: .5em;
+    padding: .6em;
     border: none;
-    margin-left: 7rem;
     font-size: 1.2rem;
     font-weight: 600;
     align-content: center;  
     text-decoration: none;
+    margin-bottom: 2.3rem;
 }
 
 .buttons a :hover {
@@ -153,6 +154,7 @@ li :hover {
     border: 1px solid var(--yellow);
     background-color: var(--yellow);
     color: var(--navy-blue);
+    border-radius: 4px;
 
 
 }
@@ -164,7 +166,7 @@ a  .far fa-user-circle :hover{
 
 
 
-@media  screen and (max-width: 600px) {
+@media  screen and (max-width: 800px) {
 
 
     body{
@@ -173,6 +175,7 @@ a  .far fa-user-circle :hover{
     }
     main{
         display: block;
+        margin-left: 3em;
         
     }
 
@@ -180,42 +183,29 @@ a  .far fa-user-circle :hover{
 
     nav{
         display: block;
-    height: 4rem;
+     height: 4rem;
       flex-direction: column;
       align-items: flex-start;  
       padding: 0em;
       width: 100%;
       justify-content:flex-start;
-      margin-left: 0;
+      margin-left: 20px;
       padding-bottom: 3em;
     }
 
-
-   
-
-      
-        .logo{
-        margin-left: 2.5rem;
-        font-size: 1.6rem;
-        padding: 0.7em 0em 0.3em 1em;
-        /* padding-top: .8em;   */
-        
-    }
-
-
-    i  {      
-        margin-right: .6em;
-        font-size: 8px;
-    }
-
-
-    .navigation a {
-        font-size: 13px;
-        /* margin-left: .5em; */
-        padding: 0.5em ;  
-        line-height: 1em;
-
-    }
+    .navigation{
+        display: block;
+        height: 4rem;
+         flex-direction: column;
+         align-items: flex-start;  
+         padding: 0em;
+         width: 100%;
+         justify-content:flex-start;
+         justify-content: space-evenly;
+         margin-left: 20px ;
+         padding-bottom: 3em;
+         list-style: none;
+        } 
 
     #main-photo{    
         width:  100vw;
@@ -234,15 +224,10 @@ a  .far fa-user-circle :hover{
 
     }
 
-
-    h1 {
-        font-size: 1.6rem;
-        margin-bottom: 1em; 
-        line-height: 1.8rem;
-        margin-left: 0em;   
-        display:block ;
-         margin-right: 0em; 
-    }
+    header h1{
+        margin-left:39%;
+        font-size: 28px;
+     }
 
     .main-text {
         margin-left: 0em;  
@@ -269,7 +254,6 @@ a  .far fa-user-circle :hover{
     .button1{
         width: 13em ;
         margin-bottom: 1.5rem;
-        margin-left: 3.5rem;
         font-size: 1.0rem;
         padding: .5em;
         align-content: center;
@@ -281,8 +265,7 @@ a  .far fa-user-circle :hover{
         height: 2em; 
         width: 14em ;
         padding: .5em;
-        margin-left: 4.3rem;
-        font-size: .8rem;
+        font-size: 1.0rem;
         font-weight: 600;
         align-content: center; 
         margin-bottom: 1.5rem;

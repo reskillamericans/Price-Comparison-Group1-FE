@@ -42,7 +42,7 @@
     color:var(--white);
     list-style-type: none;
     text-decoration:none;  
-    font-size:18px;
+    font-size:1.2em;
     margin-left:65%;
     display:flex;
     justify-content: space-evenly;
